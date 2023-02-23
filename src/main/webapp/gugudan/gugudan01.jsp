@@ -20,7 +20,7 @@
 
 <body>
  <table>
-         <tr>
+        <tr>
         <% for (int i = 2; i <= 9; i++) { %>
             	<th><%= i %>단</th>
         <% } %>

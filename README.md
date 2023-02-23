@@ -1,2 +1,2 @@
 ## JSP_practice
-JSP 연습
+JSP 연습하기

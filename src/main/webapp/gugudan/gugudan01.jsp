@@ -21,15 +21,11 @@
 <body>
  <table>
          <tr>
-        <% 
-        	for (int i = 2; i <= 9; i++) { 
-        %>
+        <% for (int i = 2; i <= 9; i++) { %>
             	<th><%= i %>단</th>
         <% } %>
     	</tr>
-    	<%
-        	for (int i = 1; i <= 9; i++) {
-    	%>
+    	<% for (int i = 1; i <= 9; i++) { %>
         <tr>
             <% for (int j = 2; j <= 9; j++) { %>
                 <td><%= j %> * <%= i %> = <%= i * j %></td>
